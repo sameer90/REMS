@@ -11,8 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+<<<<<<< HEAD
 import org.apache.log4j.Logger;
 
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 import com.rems.Exceptions.CommonExceptions;
 import com.rems.data.User;
 import com.rems.model.UserModel;
@@ -55,8 +58,11 @@ public class RegisterUser extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
+<<<<<<< HEAD
 		Logger logger = Logger.getLogger(RegisterUser.class);
 		logger.info("Entering RegisterUser Servlet Class doPost Method");
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 		// TODO Auto-generated method stub
 		String fname = request.getParameter("fname");
 		String lname = request.getParameter("lname");
@@ -101,7 +107,10 @@ public class RegisterUser extends HttpServlet {
 				}
 			}
 		} catch (Exception e) {
+<<<<<<< HEAD
 			logger.error("Exception in RegisterUser Servlet Class doPost Method", e);
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 			request.setAttribute("fname", fname);
 			request.setAttribute("lname", lname);
 			request.setAttribute("uname", uname);

@@ -7,7 +7,11 @@ package com.rems.util;
 public class REMSProperties {
 
 
+<<<<<<< HEAD
 	 /* public static String url = "jdbc:mysql://aim-aurora.cloudapp.net:3306/rems";
+=======
+	  /*public static String url = "jdbc:mysql://aim-aurora.cloudapp.net:3306/rems";
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 	  public static String driverClass = "com.mysql.jdbc.Driver";
 	  public static String ip = "";
 	  public static String dbname = "rems";

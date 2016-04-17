@@ -11,8 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+<<<<<<< HEAD
 import org.apache.log4j.Logger;
 
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 import com.rems.Exceptions.CommonExceptions;
 import com.rems.data.Expenses;
 import com.rems.data.User;
@@ -56,8 +59,11 @@ public class CreateExpenseServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
+<<<<<<< HEAD
 		Logger logger = Logger.getLogger(CreateExpenseServlet.class);
 		logger.info("Entering CreateExpense Servlet Class doPost Method");
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 		HttpSession session = request.getSession();
 		String itemName = request.getParameter("itemName");
 		String moneySpent = request.getParameter("moneySpent");
@@ -95,7 +101,10 @@ public class CreateExpenseServlet extends HttpServlet {
 				rd.forward(request, response);
 			}
 		} catch (Exception e) {
+<<<<<<< HEAD
 			logger.error("Exception in CreateExpense Servlet Class doPost Method", e);
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 			request.setAttribute("itemName", itemName);
 			request.setAttribute("moneySpent", moneySpent);
 			request.setAttribute("expType", expType);

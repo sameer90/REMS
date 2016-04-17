@@ -128,10 +128,17 @@
 									</tr>
 									<tr>
 										<td width="69%" height="49" align="right">
+<<<<<<< HEAD
 								<input type="submit" value="" style="cursor: pointer;background-image: url('${pageContext.request.contextPath}/images/register/register-now-button.png'); background-size: 177px 38px;  width: 177px;height: 38px;border:0px;"/>
 												
 										</td>
                                          <td width="31%" align="left" valign="bottom">
+=======
+								<input type="submit" value="" style="cursor: pointer;background-image: url('${pageContext.request.contextPath}/images/register/register-now-button.png'); width: 177px;height: 38px;border:0px;"/>
+												
+										</td>
+                                         <td width="31%" align="left" valign="botton">
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 								    <a href="index.jsp">  <img src="${pageContext.request.contextPath}/images/register/back.png" width="150" height="42" alt=""/></a></td>
 									</tr>
 									<tr>

@@ -11,8 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+<<<<<<< HEAD
 import org.apache.log4j.Logger;
 
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 import com.rems.Exceptions.CommonExceptions;
 import com.rems.data.Expenses;
 import com.rems.data.User;
@@ -58,8 +61,11 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
+<<<<<<< HEAD
 		Logger logger = Logger.getLogger(LoginServlet.class);
 		logger.info("Entering LoginServlet Servlet Class doPost Method");
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 
 		String uname = request.getParameter("uname");
 		String pass = request.getParameter("pass");
@@ -86,7 +92,11 @@ public class LoginServlet extends HttpServlet {
 				rd.forward(request, response);
 			}
 		} catch (Exception e) {
+<<<<<<< HEAD
 			logger.error("Exception in LoginServlet Class doPost Method", e);
+=======
+			System.out.println("Exception.....");
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 			request.setAttribute("uname", uname);
 			request.setAttribute("pass", pass);
 			request.setAttribute("message", e.getMessage());

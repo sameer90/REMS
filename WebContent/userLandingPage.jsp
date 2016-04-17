@@ -21,12 +21,19 @@
 		document.getElementsByName("expType")[0].value=typeOfExpense;
 		document.getElementsByName("expenseUpdateId")[0].value=expensId;
 		}
+<<<<<<< HEAD
 	function delExpense(expId){
+=======
+	function delExpense(){
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 		
 		var conf = confirm('Are you sure you want to delete this expense?');
 		if(conf==true)
 			{
+<<<<<<< HEAD
 			document.getElementById('del').elements.namedItem("expenseUpdateId").value=expId;
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 			document.getElementById('del').submit();
 			}		
 		}
@@ -141,10 +148,15 @@
 							</table>
 							<div
 								style="overflow: scroll; padding-bottom: 10px; overflow-x: hidden; overflow-y: auto; height: 180px;">
+<<<<<<< HEAD
 								<form name="del" id="del" action="${pageContext.request.contextPath}/CreateExpenseServlet" method="post">
 								<table width="100%" border="0" align="left" cellpadding="5"
 									cellspacing="1">
 									
+=======
+								<table width="100%" border="0" align="left" cellpadding="5"
+									cellspacing="1">
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 									<c:set var="totalExpenses" value="0" />
 									<c:set var="colour1" value="rgb(208,208,208)" />
 									<c:set var="colour" value="rgb(208,208,208)" />
@@ -155,7 +167,11 @@
 											<td
 												style="background-color: ${colour};border-bottom: 1px solid;"
 												align="center" width="15.4%" valign="top">
+<<<<<<< HEAD
 												
+=======
+												<form name="del" id="del" action="${pageContext.request.contextPath}/CreateExpenseServlet" method="post">
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 												<a
 												style="cursor: pointer; text-decoration: underline; color: black;"
 												onclick="javascript: editExpense('${allExpenses.itemDesciption}',
@@ -163,9 +179,17 @@
 												'${allExpenses.expensesId}')">Edit</a>
 												&nbsp;&nbsp;												
 												<a
+<<<<<<< HEAD
 												onclick="javascript: delExpense('${allExpenses.expensesId}');"
 												style="text-decoration: underline; color: red;cursor: pointer;">Delete</a>
 												
+=======
+												onclick="javascript: delExpense();"
+												style="text-decoration: underline; color: red;cursor: pointer;">Delete</a>
+												<input type="hidden" name="expenseUpdateId" value="${allExpenses.expensesId}">
+												<input type="hidden" name="type" value="del">
+												</form>
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 												</td>												
 											<td
 												style="background-color: ${colour};border-bottom: 1px solid;"
@@ -187,12 +211,16 @@
 
 
 									</c:forEach>
+<<<<<<< HEAD
 									
 								</table>
 									<input type="hidden" name="expenseUpdateId" value="0">
 												<input type="hidden" name="type" value="del">
 											
 									</form>
+=======
+								</table>
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 							</div>
 
 							<table

@@ -10,8 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+<<<<<<< HEAD
 import org.apache.log4j.Logger;
 
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 /**
  * Servlet implementation class LogoutServlet
  * 
@@ -49,8 +52,11 @@ public class LogoutServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		Logger logger = Logger.getLogger(LogoutServlet.class);
 		logger.info("Entering LogoutServlet Class doPost Method");
+=======
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 		HttpSession session = request.getSession();
 		session.invalidate();
 		RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");

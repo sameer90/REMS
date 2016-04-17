@@ -79,7 +79,12 @@
 					</tr>
 					<tr>
 						<td align="center" valign="top" height="30px">
+<<<<<<< HEAD
 							<div style="color: red; font-size: 15px;" id="loginerror">${requestScope.message}</div>
+=======
+							<div style="color: red; font-size: 15px;" id="loginerror">
+								${requestScope.message}</div>
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 						</td>
 					</tr>
 
@@ -112,17 +117,31 @@
 									<tr align="center">
 
 										<td height="56" colspan="2" align="center" id="signin">
+<<<<<<< HEAD
 										<input type="submit" value="" style="cursor: pointer;background-image: url('${pageContext.request.contextPath}/images/index/sign in.png');background-size: 331px 38px; width: 331px;height: 38px;border:0px;"/>
+=======
+										<input type="submit" value="" style="cursor: pointer;background-image: url('${pageContext.request.contextPath}/images/index/sign in.png'); width: 331px;height: 38px;border:0px;"/>
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 										</td>
 									</tr>
 									<tr>
 										<td align="center" valign="bottom"></td>
 									</tr>
 									<tr>
+<<<<<<< HEAD
 										<td align="center"><a style="color: white;"
 											href="${pageContext.request.contextPath}/register.jsp">Register
 												for new account</a></td>
 															</tr>
+=======
+										<td align="left"><a
+											href="${pageContext.request.contextPath}/register.jsp">Register
+												for new account</a></td>
+										<td align="left"><a style="color: blue;cursor:pointer;" onclick="javascript: alert('Under Construction');">Forgot
+												Password?</a></td>
+
+									</tr>
+>>>>>>> 9b82857e2401a5971501bda1802d9439b8692893
 								</table>
 							</form>
 						</td>
