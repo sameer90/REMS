@@ -1,0 +1,67 @@
+#table {
+	border-radius: 1px;
+	position: absolute;
+	top: 179px;
+	bottom: 30%;
+	width: 1051px;
+	height: 146px;
+	left: 19px;
+}
+
+#head
+{
+	
+	position: absolute;
+	top: 2%;
+	left: 26.25%;
+	right: 31%;
+	align: center;
+	height: 128px;
+}
+#footer
+{
+	
+	position: absolute;
+	top: 80%;
+	left: 26%;
+	right: 30%;
+	align: center;
+	height: 128px;
+}
+#footertable
+{
+	background:#686565;
+	position: absolute;
+	top: 35%;
+	left: 2px;
+	right: 30%;
+	align: center;
+	width: 738px;
+}
+
+#signin
+{
+
+	
+	left: 40px;
+	
+	align: center;
+	
+}
+#head table tbody tr td h1 {
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana, sans-serif;
+}
+#expense{
+	background-color: #1E90FF;
+	-webkit-border-radius:25px;
+	}
+
+#update{
+	background-color: #1E90FF;
+	-webkit-border-radius:25px;	
+}
+
+#calc{
+	background-color: #1E90FF;
+	-webkit-border-radius:25px;
+	}
